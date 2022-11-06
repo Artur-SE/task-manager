@@ -1,6 +1,6 @@
 import React from 'react'
-import { Sidemenu } from '../components'
+import { SideMenu } from '../components'
 
-export const Mainpage = (): JSX.Element => {
+export const MainPage = (): JSX.Element => {
     return <main>main</main>
 }

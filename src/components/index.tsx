@@ -1,3 +1,3 @@
-import { Sidemenu } from './Sidemenu/Index'
+import { SideMenu } from './SideMenu/Index'
 
-export { Sidemenu }
+export { SideMenu }
