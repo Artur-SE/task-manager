@@ -14,6 +14,7 @@ export const StyledSideMenuWrapper = styled.div`
         text-decoration: none;
         color: black;
     }
+
     .active {
         background-color: var(--primaryBackgroundColor);
     }

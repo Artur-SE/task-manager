@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const Skilltree = (): JSX.Element => {
-    return <div>Skilltree</div>
+export const SkillTree = (): JSX.Element => {
+    return <div>SkillTree</div>
 }

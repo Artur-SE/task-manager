@@ -1,3 +1,4 @@
-import { Sidemenu } from './Sidemenu/Index'
+import { SideMenu } from './SideMenu/Index'
+import { TodoList } from './TodoList/Index'
 
-export { Sidemenu }
+export { SideMenu, TodoList }

@@ -1,25 +1,25 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {
-    Mainpage,
+    MainPage,
     Achievements,
     Settings,
-    Skilltree,
+    SkillTree,
     Statistics,
     Tasks,
     Error,
 } from './pages'
-import { Sidemenu } from './components'
+import { SideMenu } from './components'
 import { StyledWrapper } from './styled'
 
 function App() {
     return (
         <Router>
             <StyledWrapper>
-                <Sidemenu />
+                <SideMenu />
                 <Routes>
-                    <Route index element={<Mainpage />} />
+                    <Route index element={<MainPage />} />
                     <Route path='tasks' element={<Tasks />} />
-                    <Route path='skilltree' element={<Skilltree />} />
+                    <Route path='skillTree' element={<SkillTree />} />
                     <Route path='achievements' element={<Achievements />} />
                     <Route path='statistics' element={<Statistics />} />
                     <Route path='settings' element={<Settings />} />

@@ -1,6 +1,10 @@
 import React from 'react'
-import { Sidemenu } from '../components'
+import { StyledMainPage } from './styled'
 
-export const Mainpage = (): JSX.Element => {
-    return <main>main</main>
+export const MainPage = (): JSX.Element => {
+    return (
+        <StyledMainPage>
+            <h1>Welcome to next lvl Productivity</h1>
+        </StyledMainPage>
+    )
 }
