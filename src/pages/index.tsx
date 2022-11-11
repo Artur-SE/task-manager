@@ -1,9 +1,9 @@
 import { Achievements } from './Achievements'
 import { Error } from './Error'
-import { Mainpage } from './Mainpage'
+import { MainPage } from './MainPage'
 import { Settings } from './Settings'
-import { Skilltree } from './Skilltree'
+import { SkillTree } from './SkillTree'
 import { Statistics } from './Statistics'
 import { Tasks } from './Tasks'
 
-export { Mainpage, Tasks, Skilltree, Achievements, Statistics, Settings, Error }
+export { MainPage, Tasks, SkillTree, Achievements, Statistics, Settings, Error }
