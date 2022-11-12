@@ -1,5 +1,5 @@
-import { ITodo } from '../../pages/types'
+import { ITodo } from "../../pages/types";
 
 export interface ITodoListProps {
-    todoList: ITodo[]
+  todoList: ITodo[];
 }

@@ -1,3 +1,3 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const StyledTodoListWrapper = styled.div``
+export const StyledTodoListWrapper = styled.div``;
