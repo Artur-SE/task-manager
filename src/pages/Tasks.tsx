@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { TodoList } from "../components";
-import { StyledInputForm, StyledTasks } from "./styled";
+import { StyledButton, StyledInputForm, StyledTasks } from "./styled";
 import { ITodo } from "./types";
 
 export const Tasks = (): JSX.Element => {
@@ -31,9 +31,9 @@ export const Tasks = (): JSX.Element => {
   return (
     <StyledTasks>
       {showInputForm ? (
-        <button onClick={() => setShowInputForm(!showInputForm)}>
-          add a new task!
-        </button>
+        <StyledButton onClick={() => setShowInputForm(!showInputForm)}>
+          New task
+        </StyledButton>
       ) : (
         <div>
           <StyledInputForm className="todo-form" onSubmit={handleSubmit}>

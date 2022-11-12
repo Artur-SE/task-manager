@@ -6,7 +6,7 @@ export const SideMenu = (): JSX.Element => {
     <StyledSideMenuWrapper>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/tasks">Tasks</NavLink>
-      <NavLink to="/SkillTree">SkillTree</NavLink>
+      <NavLink to="/SkillTree">Skill Tree</NavLink>
       <NavLink to="/achievements">Achievements</NavLink>
       <NavLink to="/statistics">Statistics</NavLink>
       <NavLink to="/settings">Settings</NavLink>
