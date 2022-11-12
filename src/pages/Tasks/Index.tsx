@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { TodoList } from "../components";
-import { StyledButton, StyledInputForm, StyledTasks } from "./styled";
+import { TodoList } from "../../components";
 import { ITodo } from "./types";
+import { StyledButton, StyledInputForm, StyledTasks } from "./styled";
 
 export const Tasks = (): JSX.Element => {
   const [showInputForm, setShowInputForm] = useState<boolean>(true);
