@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Statistics = (): JSX.Element => {
-    return <div>Statistics</div>
-}
+  return <div>Statistics</div>;
+};
